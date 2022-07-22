@@ -1,0 +1,15 @@
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/bin/Debug/net6.0/Services.Abstractions.deps.json
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/bin/Debug/net6.0/Services.Abstractions.dll
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/bin/Debug/net6.0/Services.Abstractions.pdb
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/bin/Debug/net6.0/FinanceObserver.Domain.dll
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/bin/Debug/net6.0/FinanceObserver.Domain.pdb
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/Services.Abstractions.csproj.AssemblyReference.cache
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/Services.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/Services.Abstractions.AssemblyInfoInputs.cache
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/Services.Abstractions.AssemblyInfo.cs
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/Services.Abstractions.csproj.CoreCompileInputs.cache
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/Services.Abstractions.csproj.CopyComplete
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/Services.Abstractions.dll
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/refint/Services.Abstractions.dll
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/Services.Abstractions.pdb
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/Services.Abstractions/obj/Debug/net6.0/ref/Services.Abstractions.dll
