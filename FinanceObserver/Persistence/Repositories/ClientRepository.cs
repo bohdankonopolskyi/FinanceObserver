@@ -10,8 +10,8 @@ public class ClientRepository : Repository<Client>, IClientRepository
     {
     }
 
-    public override Task<Client> GetByIdAsync(int id)
+    public override Task<Client?> GetByIdAsync(int id)
     {
-       return Task.FromResult(_dbcontext.Set<Client>().SingleOrDefault(x => x.ClientId == id));
+       return Task.FromResult(_dbcontext.Set<Client>().SingleOrDefault(x => x.Id == id));
     }
 }

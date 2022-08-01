@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SxkoW5r+HOzNfSaX8bWASn3ybZEyHBNDXl1vz1b5nej2C4XPetcj87mxpNf/wk3oe7NiweWjNzWulCZDy4glCQ==",
+  "dgSpecHash": "FgIzUeAc9nTGNADNVDvhf31crmgW2RjCugl2Z5MGooFiJPaO02Fo/n5d2vNtk9UnFomi16p069UOyXqjVSIHTg==",
   "success": true,
-  "projectFilePath": "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj",
+  "projectFilePath": "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj",
   "expectedPackageFiles": [
     "/Users/bohdankonopolskyi/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/Users/bohdankonopolskyi/.nuget/packages/azure.core/1.20.0/azure.core.1.20.0.nupkg.sha512",
