@@ -1,12 +1,11 @@
-using System.Transactions;
 using FinanceObserver.Application.Interfaces.Services;
 
-namespace Services.Abstractions;
+namespace FinanceObserver.Application.Interfaces.ServiceAbstractions;
 
 public interface IServiceManager
 {
-    IClientService ClientService { get; set; }
-    IAccountService AccountService { get; set; }
-    ITransactionService TransactionService { get; set; }
+    IClientService ClientService { get;}
+    IAccountService AccountService { get; }
+    ITransactionService TransactionService { get;}
     
 }

@@ -12,13 +12,13 @@ public class FinanceObserverDbContext : DbContext
 
     private IConfiguration _configuration;
 
-    public FinanceObserverDbContext(IConfiguration configuration)
-    {
-        _configuration = configuration;
-    }
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
-        optionsBuilder.UseSqlServer(
-            _configuration["sqlServerConnection:connectionString"] ?? throw new InvalidOperationException());
+    // public FinanceObserverDbContext(IConfiguration configuration)
+    // {
+    //     _configuration = configuration;
+    // }
+    // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
+    //     optionsBuilder.UseSqlServer(
+    //         _configuration["sqlServerConnection:connectionString"] ?? throw new InvalidOperationException());
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

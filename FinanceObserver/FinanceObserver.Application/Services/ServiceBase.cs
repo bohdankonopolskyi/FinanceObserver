@@ -1,13 +1,15 @@
+using AutoMapper;
 using FinanceObserver.Application.Interfaces.Persistance;
 
 namespace FinanceObserver.Application.Services;
 
 public abstract class ServiceBase<TEntity> where TEntity : class
 {
-public IRepository<TEntity> _repository;
-
-protected ServiceBase(IRepository<TEntity> repository)
+protected IRepositoryManager _repositoryManager;
+protected IMapper _mapper;
+protected ServiceBase(IRepositoryManager repositoryManager, IMapper mapper)
 {
-    _repository = repository;
+    _repositoryManager = repositoryManager;
+    _mapper = mapper;
 }
 }
