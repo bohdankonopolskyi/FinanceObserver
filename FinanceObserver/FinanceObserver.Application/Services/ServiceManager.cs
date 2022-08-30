@@ -1,7 +1,6 @@
 using AutoMapper;
 using FinanceObserver.Application.Interfaces.Persistance;
 using FinanceObserver.Application.Interfaces.ServiceAbstractions;
-using FinanceObserver.Application.Interfaces.Services;
 
 namespace FinanceObserver.Application.Services;
 

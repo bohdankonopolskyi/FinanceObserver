@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Application/FinanceObserver.Application.csproj": {}
+    "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Application/FinanceObserver.Application.csproj": {}
   },
   "projects": {
-    "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Application/FinanceObserver.Application.csproj": {
+    "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Application/FinanceObserver.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Application/FinanceObserver.Application.csproj",
+        "projectUniqueName": "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Application/FinanceObserver.Application.csproj",
         "projectName": "FinanceObserver.Application",
-        "projectPath": "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Application/FinanceObserver.Application.csproj",
+        "projectPath": "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Application/FinanceObserver.Application.csproj",
         "packagesPath": "/Users/bohdankonopolskyi/.nuget/packages/",
-        "outputPath": "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Application/obj/",
+        "outputPath": "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bohdankonopolskyi/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/Contracts/Contracts.csproj": {
-                "projectPath": "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/Contracts/Contracts.csproj"
+              "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/Contracts/Contracts.csproj": {
+                "projectPath": "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/Contracts/Contracts.csproj"
               },
-              "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj": {
-                "projectPath": "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj"
+              "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj": {
+                "projectPath": "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj"
               }
             }
           }
@@ -50,7 +50,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,18 +60,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/bohdankonopolskyi/.dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj": {
+    "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj",
+        "projectUniqueName": "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj",
         "projectName": "FinanceObserver.Domain",
-        "projectPath": "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj",
+        "projectPath": "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/FinanceObserver.Domain.csproj",
         "packagesPath": "/Users/bohdankonopolskyi/.nuget/packages/",
-        "outputPath": "/Users/bohdankonopolskyi/RiderProjects/Finance/FinanceObserver/FinanceObserver.Domain/obj/",
+        "outputPath": "/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bohdankonopolskyi/.nuget/NuGet/NuGet.Config"
@@ -136,7 +137,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -145,7 +147,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/bohdankonopolskyi/.dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

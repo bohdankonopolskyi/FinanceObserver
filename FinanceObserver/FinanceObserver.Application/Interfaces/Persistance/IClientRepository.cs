@@ -5,9 +5,9 @@ namespace FinanceObserver.Application.Interfaces.Persistance;
 
 public interface IClientRepository
 {
-    Task<Client?> GetByIdAsync(int clientId);
-    Task<IEnumerable<Client>> GetAllAsync();
-    Task<IQueryable<Client>> Find(Expression<Func<Client, bool>> predicate);
+    Client GetById(int clientId);
+    IQueryable<Client> GetAll();
+    IQueryable<Client> Find(Expression<Func<Client, bool>> predicate);
 
     void Add(Client client);
 

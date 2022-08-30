@@ -5,8 +5,8 @@ namespace FinanceObserver.Application.Interfaces.ServiceAbstractions;
 
 public interface IClientService
 {
-    Task<Client?> GetClientByIdAsync(int clientId, CancellationToken cancellationToken = default);
-    Task<Client> CreateClientAsync(ClientForCreationDto forCreationDto, CancellationToken cancellationToken = default);
-    Task UpdateAsync(int clientId, CancellationToken cancellationToken = default);
-    Task DeleteAsync(int clentId, CancellationToken cancellationToken = default);
+    Client GetClientByIdAsync(int clientId, CancellationToken cancellationToken = default);
+    void CreateClientAsync(ClientForCreationDto forCreationDto, CancellationToken cancellationToken = default);
+    void UpdateAsync(int clientId, ClientForCreationDto clientForUpdateDto, CancellationToken cancellationToken = default);
+    void DeleteAsync(int clientId, CancellationToken cancellationToken = default);
 }

@@ -12,3 +12,17 @@
 /Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.pdb
 /Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.genruntimeconfig.cache
 /Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/ref/FinanceObserver.Domain.dll
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/bin/Debug/net6.0/FinanceObserver.Domain.deps.json
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/bin/Debug/net6.0/FinanceObserver.Domain.runtimeconfig.json
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/bin/Debug/net6.0/FinanceObserver.Domain.dll
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/bin/Debug/net6.0/FinanceObserver.Domain.pdb
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.csproj.AssemblyReference.cache
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.AssemblyInfoInputs.cache
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.AssemblyInfo.cs
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.csproj.CoreCompileInputs.cache
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.dll
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/refint/FinanceObserver.Domain.dll
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.pdb
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.genruntimeconfig.cache
+/Users/bohdankonopolskyi/RiderProjects/FinanceObserver/FinanceObserver/FinanceObserver.Domain/obj/Debug/net6.0/ref/FinanceObserver.Domain.dll

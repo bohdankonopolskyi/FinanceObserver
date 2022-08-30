@@ -16,13 +16,12 @@ public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity :
         _dbcontext = dbcontext ?? throw new ArgumentNullException(nameof(dbcontext));
     }
 
-    public Task<TEntity?> GetByIdAsync(int id) => FromResult(_dbcontext.Set<TEntity>().SingleOrDefault(x => x.Id == id));
+    public TEntity? GetById(int id) => _dbcontext.Set<TEntity>().SingleOrDefault(x => x.Id == id);
 
-    public Task<IEnumerable<TEntity>> GetAllAsync() => FromResult<IEnumerable<TEntity>>(_dbcontext.Set<TEntity>().AsNoTracking());
+    public IQueryable<TEntity> GetAll() => _dbcontext.Set<TEntity>().AsNoTracking();
 
-    public Task<IQueryable<TEntity>> Find(Expression<Func<TEntity, bool>> predicate) => FromResult(_dbcontext.Set<TEntity>().Where(predicate).AsNoTracking());
+    public IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate) => _dbcontext.Set<TEntity>().Where(predicate).AsNoTracking();
     
-
     public void Add(TEntity? entity)
     {
         if (entity != null) 

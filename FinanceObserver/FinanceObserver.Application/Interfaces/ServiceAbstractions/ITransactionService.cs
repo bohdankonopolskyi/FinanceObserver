@@ -1,12 +1,15 @@
-using System.Transactions;
-namespace FinanceObserver.Application.Interfaces.Services
+
+using FinanceObserver.Application.DTO;
+using FinanceObserver.Domain.Models;
+
+namespace FinanceObserver.Application.Interfaces.ServiceAbstractions
 {
     public interface ITransactionService
     {
-        Task<IEnumerable<Transaction>> GetAllTransactionsAsync(int accountId, CancellationToken cancellationToken = default);
-        Task<Transaction> GetTransactionByIdAsync(int transactionId, int accountId,
+        IEnumerable<TransactionDto> GetAllTransactions(int accountId, CancellationToken cancellationToken = default);
+       TransactionDto GetTransactionById(int transactionId, int accountId,
             CancellationToken cancellationToken = default);
-        Task<Transaction> CreateAsync(int accountId, CancellationToken cancellationToken = default);
-        Task DeleteAsync(int transactionId, int accountId, CancellationToken cancellationToken = default);
+        void Create(int accountId, TransactionForCreationDto transactionForCreationDto, CancellationToken cancellationToken = default);
+        void Delete(int accountId, int transactionId, CancellationToken cancellationToken = default);
     }
 }

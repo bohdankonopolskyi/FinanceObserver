@@ -1,12 +1,14 @@
 
+using FinanceObserver.Application.DTO;
 using FinanceObserver.Domain.Models;
 
-namespace FinanceObserver.Application.Interfaces.Services;
+namespace FinanceObserver.Application.Interfaces.ServiceAbstractions;
 
 public interface IAccountService
 {
- Task<IEnumerable<Account>> GetAllByOwnerIdAsync(int ownerId, CancellationToken cancellationToken = default);
- Task<Account> GetByIdAsync(int ownerId, int accountId, CancellationToken cancellationToken = default);
- Task<Account> CreateAsync(int ownerId, CancellationToken cancellationToken = default);
- Task DeleteAsync(int ownerId, int accountId, CancellationToken cancellationToken = default);
+ IEnumerable<AccountDto> GetAllAccountsByOwnerId(int ownerId, CancellationToken cancellationToken = default);
+ AccountDto GetAccountById(int accountId, CancellationToken cancellationToken = default);
+ void CreateAccount(int ownerId, AccountForCreationDto accountForCreationDto, CancellationToken cancellationToken = default);
+ void DeleteAccount(int ownerId, int accountId, CancellationToken cancellationToken = default);
+ 
 }

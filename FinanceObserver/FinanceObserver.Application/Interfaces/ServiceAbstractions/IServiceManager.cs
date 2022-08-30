@@ -1,5 +1,3 @@
-using FinanceObserver.Application.Interfaces.Services;
-
 namespace FinanceObserver.Application.Interfaces.ServiceAbstractions;
 
 public interface IServiceManager

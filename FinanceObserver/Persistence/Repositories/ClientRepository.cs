@@ -4,14 +4,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Persistence.Repositories;
 
-public class ClientRepository : Repository<Client>, IClientRepository
+public class ClientRepository : Repository<Client>
 {
     public ClientRepository(DbContext dbcontext) : base(dbcontext)
     {
     }
-
-    // public Task<Client?> GetByIdAsync(int id)
-    // {
-    //    return Task.FromResult(_dbcontext.Set<Client>().SingleOrDefault(x => x.Id == id));
-    // }
+    
 }

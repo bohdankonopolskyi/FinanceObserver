@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51dfccb3-ccdf-4add-b143-8e15e6f014d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Contracts.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinanceObserver.Application/DTO/AccountDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinanceObserver.Application/DTO/AccountForCreationDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinanceObserver.Application/DTO/TransactionDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinanceObserver.Application/DTO/TransactionForCreationDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/Debug/net6.0/FinanceObserver.Application.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/Exceptions/ClientNotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/IClientRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/IClientRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/IRepositoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/IRepositoryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/ITransactionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/ITransactionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/Persistance/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/ServiceAbstractions/IAccountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/ServiceAbstractions/IAccountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/ServiceAbstractions/IClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/ServiceAbstractions/IClientService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/ServiceAbstractions/IServiceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/ServiceAbstractions/IServiceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/ServiceAbstractions/ITransactionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Interfaces/ServiceAbstractions/ITransactionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Services/AccountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Services/AccountService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Services/ClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Services/ClientService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Services/ServiceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Services/ServiceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/Services/TransactionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/Services/TransactionService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/obj/Debug/net6.0/FinanceObserver.Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/Debug/net6.0/FinanceObserver.Application.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/obj/Debug/net6.0/FinanceObserver.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/Debug/net6.0/FinanceObserver.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/obj/Debug/net6.0/FinanceObserver.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/Debug/net6.0/FinanceObserver.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/obj/FinanceObserver.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/FinanceObserver.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/obj/FinanceObserver.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/FinanceObserver.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/Exceptions/ClientException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/bin/Debug/net6.0/FinanceObserver.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/bin/Debug/net6.0/FinanceObserver.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/bin/Debug/net6.0/FinanceObserver.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/bin/Debug/net6.0/FinanceObserver.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/FinanceObserver.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/ref/FinanceObserver.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/ref/FinanceObserver.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/refint/FinanceObserver.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/Debug/net6.0/refint/FinanceObserver.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/FinanceObserver.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/FinanceObserver.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/FinanceObserver.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/FinanceObserver.Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../FinanceObserver.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/Repositories/AccountRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/Repositories/AccountRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/Repositories/ClientRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/Repositories/ClientRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/Repositories/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/Repositories/Repository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/Repositories/RepositoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/Repositories/RepositoryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/Repositories/TransactionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/Repositories/TransactionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/Repositories/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/Repositories/UnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/obj/Debug/net6.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/obj/Debug/net6.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/obj/Debug/net6.0/Persistence.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/obj/Debug/net6.0/Persistence.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/obj/Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/obj/Persistence.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/obj/Persistence.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/obj/Persistence.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Persistence/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2E5RQTsSmpDZ94FMzo2f3l94O0q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1661883442596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661883442596</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
